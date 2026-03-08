@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request, redirect, session
 
-export CODECOURSE_GMAIL_USER="codeformaine@gmail.com"
-export CODECOURSE_GMAIL_PASS="i love to code!"
 
 
 app = Flask(__name__)
@@ -96,5 +94,5 @@ def student_lesson(lang, lesson_id):
     )
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+app
+
