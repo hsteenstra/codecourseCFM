@@ -1,0 +1,15 @@
+<h1>Classroom</h1>
+
+<h2>Assignments</h2>
+
+<ul>
+
+{% for a in assignments %}
+
+<li>
+{{a.title}} - Due {{a.due_date}}
+</li>
+
+{% endfor %}
+
+</ul>
