@@ -1,0 +1,21 @@
+body{
+font-family: Inter, sans-serif;
+background:#f4f7ff;
+text-align:center;
+}
+
+a{
+background:#6b8cff;
+padding:10px 20px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+}
+
+div{
+background:white;
+padding:20px;
+margin:10px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
