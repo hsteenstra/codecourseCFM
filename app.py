@@ -7,6 +7,9 @@ app.secret_key = "codecourse_secret"
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
 db = SQLAlchemy(app)
 
+with app.app_context():
+    db.create_all()
+
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
